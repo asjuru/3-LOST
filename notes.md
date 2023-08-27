@@ -1,14 +1,81 @@
-md - (Github markdown syntax) (https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+# Projektas 3-LOST
 
-- jbhkhk
+md - [Github markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+- 123456
+- 789101
+
+# labas
+## labas
 ### labas
+#### labas
+##### labas
 ###### labas
 
-1. jjjj
-    - jjj
+1. aaaa
+    - aaa
+    - bbb
+    - ccc
+
 
 git config --global user.name
 git config --global user.email
+
+hot-keys:
+- div+a, div>a, div*5, .div - pagamina didesne struktura
+- Fn + home/end - nusoka i eilutes pradia / gala
+- Fn + shift + home/end - pazymi iki eilutes pradzios / galo
+- alt + rodekle (virsu, apacia) - perkelti eilutę
+- shift + alt + rodykle (virsu, apacia) - kopijuoja pazymetas - - eilutes (net ir nepilnai pazymetas)
+- ctrl + d - multi redagavimas (kiek matosi ekrane)
+- ctrl + alt + rodykle (virsu, apacia) - multi redagavimas
+- ctrl + / - pakomentuoja eilutę(-s)
+- ctrl + rodykle (virsu, apacia) - judina slider'i nekeiciant eilutes
+- ctrl + l - pažymi visą esamą eilutę
+- alt + z - pasiziureti netelpancia eilute
+
+
+<!--  main.cs failo fragmentas
+header {
+    background-color: red;
+}
+main {
+    background-color: blue; 
+}
+main > p {
+    font-size: 10px; color: aliceblue;
+}
+footer {
+    background-color: green;
+}
+
+NOTE: padeda identifikuoti konkretų header
+main > article > header {
+    color: blue;
+    {       -->
+
+
+
+
+
+<!-- <!DOCTYPE html>  GALIMA STYLE DETI I HEAD, O NE PRIE HEADER, MAIN IR KT.
+<html lang="en">
+<head>
+    <...>
+
+    <style>
+        header {
+            background-color: red;
+        }
+        main {
+            background-color: blue;
+        }
+        footer {
+            background-color: green;
+        }
+    </style>
+</head> -->
+
 
 <!-- 
 
