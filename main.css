@@ -1,5 +1,36 @@
-header, main, footer {
+/* header, main, footer {
+    width: 800px;
+    background-color: pink;
+    margin-left: calc(50% - 400px); 
+    
+Note: paverciam sita i klase su tasku salia zodizio*/
+
+.container {
     width: 800px;
     background-color: pink;
     margin-left: calc(50% - 400px);
+
 }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body > header > nav {
+    text-decoration: none;
+}
+div > p {
+    font-size: small;
+}
+header > a,
+header > span > a {
+    border: none;
+    color: black;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+  }
+  div > span > a {
+    border-radius: 20px;
+  }

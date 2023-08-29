@@ -117,4 +117,9 @@ SPALVOS PANAUDOJIMO VARIACIJOS:
 background-color: rgb(234, 235, 237);
 background-color: #EAEBED;
 background-color: hsl(220, 1%, 92%);
+
+
  -->
+# Paint.net tipsai:
+ - Paveiksliuka dedam be fono. Paint.net su "magic wand" galima nuimti fona ir issisaugoti png formatu.  Ctrl + I (invert) - pazymi fona, o po to pazymi ne fona.
+ 
