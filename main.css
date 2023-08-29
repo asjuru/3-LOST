@@ -43,7 +43,7 @@ body {
     text-decoration: none;
     border-color: #662C8C;  
     text-decoration: none; 
-    border: solid;
+    border: solid 1px;
   }
 
  .right_column_img {
