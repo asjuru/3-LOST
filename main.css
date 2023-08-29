@@ -1,36 +1,65 @@
-/* header, main, footer {
-    width: 800px;
-    background-color: pink;
-    margin-left: calc(50% - 400px); 
-    
-Note: paverciam sita i klase su tasku salia zodizio*/
-
 .container {
     width: 800px;
-    background-color: pink;
     margin-left: calc(50% - 400px);
+    }
 
-}
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-body > header > nav {
-    text-decoration: none;
+
+/* HEADER */
+.logo {
+    width: 6%;
 }
-div > p {
-    font-size: small;
-}
-header > a,
-header > span > a {
-    border: none;
-    color: black;
-    padding: 2px;
-    text-align: center;
+
+.menu {
     text-decoration: none;
+    margin-right: 20px;
+}
+
+  /* MAIN */
+.left_column {
+    width: 40%; 
+    margin-top: 10%;
     display: inline-block;
-    font-size: 16px;
-    margin: 2px 1px;
-  }
-  div > span > a {
+}
+.content {
+    font-size: small;
+    margin-bottom: 20%
+}
+  .btn_1 {
     border-radius: 20px;
+    background-color: #662C8C; 
+    color:#FFFFFF; 
+    max-width: 3%; 
+    padding: 3%;  
+    text-decoration: none;
   }
+  .btn_2 {
+    border-radius: 20px;
+    background-color: #FFFFFF;  
+    margin: 3%;
+    padding: 3% 10%;  
+    text-decoration: none;
+    border-color: #662C8C;  
+    text-decoration: none; 
+    border: solid;
+  }
+
+ .right_column_img {
+    float: right; 
+    width: 53%; 
+    margin-top: 5%;
+ }
+
+    /* FOOTER */
+.socials {
+    margin-top: 5%;
+    display: inline-block;
+}
+
+.copyright {
+    margin-top: 5%;
+    margin-left: 60%;
+    display: inline-block;
+    }
