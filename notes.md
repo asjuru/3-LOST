@@ -87,6 +87,7 @@ background-color: red;          elemento fono spalva
 background: red;                elemento fono spalva
 font-family: Arial;
 font-size: 20px;
+line-hight: 20 px              auto: line hight > font size
 font-weight: bold;
 text-style: italic;
 
@@ -113,6 +114,13 @@ display: inline-block;      stengiasi buti vienoje eileje su kitais, bet jei net
 float:left (display nebeveikia naudojant float)
 float:right
 
+object-fit: contain
+object-position: top left     pirma x, po to y asis
+
+.link: nth-child(3) {}   CSS 3 elementui bus taikomas stilius
+.link: nth-child(3n)     {}   kas treciam
+.link: nth-of-type (2)   ziuri "lytis": a, span, div
+
 SPALVOS PANAUDOJIMO VARIACIJOS:
 background-color: rgb(234, 235, 237);
 background-color: #EAEBED;
@@ -122,4 +130,3 @@ background-color: hsl(220, 1%, 92%);
  -->
 # Paint.net tipsai:
  - Paveiksliuka dedam be fono. Paint.net su "magic wand" galima nuimti fona ir issisaugoti png formatu.  Ctrl + I (invert) - pazymi fona, o po to pazymi ne fona.
- 
