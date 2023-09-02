@@ -86,12 +86,14 @@ color: red;                     teksto spalva
 background-color: red;          elemento fono spalva
 background: red;                elemento fono spalva
 font-family: Arial;
+font-family: monospace;         visu raidziu plociai vienodi
 font-size: 20px;
 line-hight: 20 px              auto: line hight > font size
 font-weight: bold;
 text-style: italic;
 
 Text decoration: none             default pabraukimus ir kt nuima
+text-transform: uppercase;
 
 margin: 100px;                  atstumas tarp elementu - visomis kryptimis
 margin-top: 100px;
@@ -126,6 +128,11 @@ background-color: rgb(234, 235, 237);
 background-color: #EAEBED;
 background-color: hsl(220, 1%, 92%);
 
+.btn {
+    border-radius: 20px;          uzapvalina
+    border: solid 1px #662C8C;}   remas, remo storis ir spalva
+.btn:hover{
+    background-color: red;}      atsiranda TIK uzvedus kursoriu
 
  -->
 # Paint.net tipsai:
