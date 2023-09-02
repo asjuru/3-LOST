@@ -134,6 +134,10 @@ background-color: hsl(220, 1%, 92%);
 .btn:hover{
     background-color: red;}      atsiranda TIK uzvedus kursoriu
 
+<a class="link" href="#" target="_blank">
+<i class="fa fa-linkedin" aria-hidden="true"></i> </a>  
+target="_blank" ir "blank" skirtumai - (1) atidaro visad naujam lange; (2) wikipedijos psl ties skirtingais skyriais.
+
  -->
 # Paint.net tipsai:
  - Paveiksliuka dedam be fono. Paint.net su "magic wand" galima nuimti fona ir issisaugoti png formatu.  Ctrl + I (invert) - pazymi fona, o po to pazymi ne fona.
