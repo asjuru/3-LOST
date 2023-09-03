@@ -1,7 +1,7 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    margin-left: 15%;
+    margin-left: 5%;
+    margin-top: 3%;
     }
 
  .container {
@@ -9,19 +9,11 @@ body {
     width: 800px;
     margin-left: calc((100% - 800px) / 2);
     
-.div_major {width: 18%;
+.div_major {
+    width: 23%;
     margin-right: 2%;
+    text-align: center;
     }
-
-.number {
-    border: solid 2px #70C0C9;
-    border-radius: 20px;
-    width: 20px;
-    position:absolute;
-    top: -15px; 
-    background-color: azure;
-    color: white;
-}  
     
 .img {
     filter: invert(1);
@@ -29,10 +21,9 @@ body {
 }
 .img_background {
     width: 80%;
-    height: 20%;
+    height: 28%;
     display: inline-flex;
-    margin-left: 5%;
-    position:relative;
+    position: relative;
 }
 .first {
     background-color: #70C0C9;
@@ -46,6 +37,33 @@ body {
 .fourth {
     background-color: #919191;
 }
+.number {
+    border: solid 2px #70C0C9;
+    border-radius: 20px;
+    width: 1.5em;
+    height: 1.5em;
+    position: absolute;
+    top: 20px; 
+    left: 105px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1em;
+    font-family: Arial, Helvetica, sans-serif; 
+}  
+
+.first_number {
+    color: #70C0C9;
+}
+.second_number {
+    color: #4074BD;
+}
+.third_number {
+    color: #E05E46;
+}
+.fourth_number {
+    color: #919191;
+}
+
 .h1 {
     text-transform: uppercase;
     color: #E5786A;
