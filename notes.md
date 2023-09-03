@@ -119,6 +119,8 @@ float:right
 object-fit: contain
 object-position: top left     pirma x, po to y asis
 
+filter: invert(0);            juodas pav virsta baltu
+
 .link: nth-child(3) {}   CSS 3 elementui bus taikomas stilius
 .link: nth-child(3n)     {}   kas treciam
 .link: nth-of-type (2)   ziuri "lytis": a, span, div
