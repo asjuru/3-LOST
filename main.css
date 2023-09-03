@@ -18,7 +18,6 @@ body {
 .img {
     filter: invert(1);
     padding: 25%;
-    object-fit: contain;
 }
 .img_background {
     width: 80%;
